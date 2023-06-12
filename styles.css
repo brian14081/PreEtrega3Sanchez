@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a52121;
+  gap: 18px;
+  padding: 20px 0;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .cabecera {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+header nav {
+  width: 100%;
+}
+
+.navbar-expand-lgbg-body-tertiary {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  background-color: green;
+}
+
+@media (min-width: 500px) {
+  .navbar {
+    flex-direction: row;
+  }
+}
+.textito {
+  background-color: #a52121;
+}
+
+body {
+  font-family: "Montez", cursive;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(img/prueba\ de\ fondo.jpg);
+  background-size: 200%;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  display: inline;
+  flex-direction: inline;
+}
+
+h1 {
+  color: rgb(252, 155, 29);
+  text-align: center;
+  flex-flow: wrap;
+}
+
+h2 {
+  text-align: center;
+  background-color: white;
+}
+
+.padre-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .padre-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .padre-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.padre-cards__card {
+  width: 18rem;
+  -webkit-box-shadow: 0px 0px 17px 0px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 17px 0px rgb(255, 255, 255);
+  box-shadow: 0px 0px 17px 0px rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.padre-cards__card h4, .padre-cards__card p {
+  color: #ffffff;
+}
+
+.padre-cards__card button {
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.padre-cards__card--oferta {
+  background-color: #a52121;
+}
+
+.margenes {
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+  padding: top 100px;
+  display: inline;
+}
+
+.imagen-horizontal {
+  position: relative;
+  width: 100%;
+  height: px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.rem {
+  font-size: 1rem;
+}
+
+.px {
+  font-size: 16px;
+}
+
+.strong {
+  border: solid 1px white;
+  padding: 5px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: arial color white;
+  width: 100px;
+  height: 110px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.padre-redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .padre-redes {
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    right: 2%;
+  }
+  .titulo-redes {
+    display: none;
+  }
+}
+.redes {
+  width: 35px;
+}
+
+.logo {
+  width: 150px;
+  align-items: center;
+}
+
+.content-clad {
+  text-align: center;
+  align-items: center;
+}
+
+.form {
+  background-color: rgba(255, 136, 0, 0.384);
+  text-align: center;
+}
+
+h3 {
+  background-color: rgba(240, 248, 255, 0.281);
+}
+
+#carouselExample {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  height: 360px;
+}
+
+/*# sourceMappingURL=styles.css.map */
